@@ -1,0 +1,13 @@
+﻿<Window x:Class="RGB_Decomposer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RGB_Decomposer"
+        mc:Ignorable="d"
+        Title="RGB Splitter" Height="196" Width="489" AllowDrop="True" Drop="Window_Drop" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label x:Name="font" Content="Drag'n'Drop Image here" HorizontalAlignment="Center" Margin="-8,0,-8,10" VerticalAlignment="Center" FontSize="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="497" Height="156"/>
+
+    </Grid>
+</Window>
